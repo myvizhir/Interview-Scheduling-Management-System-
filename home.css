@@ -1,0 +1,13 @@
+
+h1{
+    font-style: oblique;
+    font-weight: bold;
+    color: blue;
+}
+body{
+    background-image: url(h1.jpg); 
+    height: 380px; 
+    background-position: center;
+    background-repeat: no-repeat;  
+    background-size: cover;
+}

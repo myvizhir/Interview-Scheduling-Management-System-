@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interview Scheduling</title>
+	<link rel="stylesheet" href="InterviewSch.css">
+	<script src="InterviewSch.js"></script>	
+</head>
+<body>
+   <body>
+		<h1 align="center"> Interview Scheduling </h1>
+		<form name="regForm" onsubmit="return fnValidate()">
+			<table align="center">
+			
+			<tbody>
+			
+			<tr>
+			<td> <label >Requirement Id </label></td>
+			<td> <input type="text" id="cname" name="cname"  required></td>
+			</tr>
+			<tr>
+			<td	> <label >Candidate Name</label></td>
+			<td> <input type="text" id="cage" name="cage" required ></td>
+			</tr>
+			<tr>
+			<td> <label >Qualification </label></td>
+			<td> <select id="qual">
+                <option selected>select</option>
+                <option>BE</option>
+                <option>B.TECH</option>
+                <option>MCA</option>
+                <option>OTHERS</option>
+            </select></td>
+			</tr>
+			<tr>
+			<td > <label >Rank</label></td>
+			<td> <input type="text" id="rank" name="rank" required ></td>
+			</tr>
+			<td> <label >Venue </label> </td>
+			<td><select id="venue">
+                <option selected>Select date</option>
+                <option></option>
+                <option></option>
+                <option></option>
+                <option></option>
+                <option></option>
+            </select> </td>
+			</tr>
+			<tr>
+			<td align="center"> <input type="submit" value="Submit" style="height:35px;width:110px" > </td>
+			<td align="center"> <input type="reset" value="Reset" style="height:35px;width:110px"> </td>
+			</tr>
+			</tbody>
+			</table>
+		</form>
+	</body>
+</body>
+</html>

@@ -1,0 +1,22 @@
+td{
+    padding: 10px;
+}
+label{
+    font-size: 20px;
+}
+h1 {
+    color: rgb(0, 0, 204);
+    font-size:40px;
+}
+body {
+    background-image: url(IO.jfif);
+	height: 380px; 
+	background-position: center;
+	background-repeat: no-repeat;  
+	background-size: cover;
+}
+input
+{
+    width:270px;
+    height:35px;
+}

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Add Candidate Requirements</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src="Add.js"></script>
+  <link rel="stylesheet" href="Add.css">
+</head>
+<body>
+<div class="container">
+  <h2>ADD CANDIDATE!!</h2>
+  <form class="form-horizontal">
+    <div class="form-group">
+      <label class="control-label col-sm-2" for="empid">Employee Id</label>
+      <div class="col-sm-10">
+        <input type="text" class="form-control" id="empid" placeholder="Enter the Employee Id" name="empid">
+      </div>
+    </div>
+    <div class="form-group">
+      <label class="control-label col-sm-2" for="vacancy">Required vacancies</label>
+      <div class="col-sm-10">          
+        <input type="text" class="form-control" id="vacancy" placeholder="Enter the Required vacancies" name="vacancy">
+      </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-sm-2" for="domain">Domain</label>
+        <div class="col-md-6">
+            <select id="domain" class="form-select">
+                <option selected>select</option>
+                <option>Java</option>
+                <option>Dotnet</option>
+                <option>Mainframe</option>
+                <option>Testing</option>
+                <option>SAP</option>
+            </select>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-sm-2" for="date">Closing date</label>
+        <div class="col-md-6">
+            <input type="date" class="form-control" id="date" placeholder="DATE" />
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-sm-2" for="rank">Priority</label>
+        <div class="col-md-6">
+            <select id="rank" class="form-select">
+                <option selected>select</option>
+                <option>Rank1...</option>
+                <option>Rank2...</option>
+                <option>Rank3...</option>
+                <option>Rank4...</option>
+                <option>Rank5...</option>
+            </select>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-sm-2" for="exp">Minimum Experiance</label>
+        <div class="col-sm-10">          
+          <input type="number" class="form-control" id="exp" placeholder="Enter the Minimum experiance" name="exp">
+        </div>
+    </div>
+    <div class="form-group">        
+      <div class="col-sm-offset-2 col-sm-10">
+        <div class="checkbox">
+          <label><input type="checkbox" name="remember"> Remember me</label>
+        </div>
+      </div>
+    </div>
+    <div class="form-group">        
+      <div class="col-sm-offset-2 col-sm-10">
+        <input type="submit" onclick="validate()" class="btn btn-primary mt-3" /> 
+        <input type="reset" class="btn btn-primary mt-3" /> 
+      </div>
+    </div>
+  </form>
+</div>
+</body>
+</html>
